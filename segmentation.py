@@ -1,0 +1,80 @@
+import os
+import pandas as pd
+import gradio as gr
+from openai import OpenAI
+from dotenv import load_dotenv
+from tqdm import tqdm
+
+load_dotenv()
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+MODEL = "gpt-4o" 
+
+
+def segment_text(text, few_shot_prompt):
+    """Send text to the model and return list of parsed ideas"""
+    try:
+        response = client.chat.completions.create(
+            model=MODEL,
+            messages=[
+                {"role": "system", "content": "You are a linguistic annotator."},
+                {
+                    "role": "user",
+                    "content": few_shot_prompt.strip() + "\n\nInput:\n" + text.strip(),
+                },
+            ],
+            temperature=0,
+        )
+        output = response.choices[0].message.content.strip()
+        lines = [line.strip() for line in output.split("\n") if line.strip()]
+        return lines
+    except Exception as e:
+        return [f"Error: {e}"]
+
+
+def run_segmentation(file, prompt):
+    """Main function called by Gradio when user uploads and clicks submit"""
+    if file is None or prompt is None:
+        return "Please upload a tab-delimited file with id and text columns."
+
+    df = pd.read_csv(file.name, sep="\t")
+
+    with open(prompt.name, "r", encoding="utf-8") as f:
+            few_shot_prompt = f.read()
+
+    if not {"id", "text"}.issubset(df.columns):
+        return "File must contain columns: id and text."
+
+    parsed_rows = []
+    for _, row in tqdm(df.iterrows(), total=len(df)):
+        pid = str(row["id"])
+        text = str(row["text"])
+        ideas = segment_text(text, few_shot_prompt)
+        for idea in ideas:
+            parsed_rows.append({"id": pid, "text": idea})
+
+    out_df = pd.DataFrame(parsed_rows)
+    out_path = "parsed_output.txt"
+    out_df.to_csv(out_path, sep="\t", index=False)
+    return out_path
+
+
+# ------------------------------
+# Gradio Interface
+# ------------------------------
+with gr.Blocks(title="LLM Idea Segmentation") as demo:
+    gr.Markdown("## 🧠 LLM-Based Idea Segmentation Tool\nUpload participant texts and a few-shot prompt to parse them into discrete ideas.")
+
+    file_input = gr.File(label="Upload Summaries File (tab-delimited .txt)")
+    prompt_input = gr.File(label="Upload Prompt File (.txt)")
+
+    run_button = gr.Button("Run Segmentation")
+    output_file = gr.File(label="Download Parsed Output (.txt)")
+
+    run_button.click(
+        fn=run_segmentation,
+        inputs=[file_input, prompt_input],
+        outputs=output_file,
+    )
+
+demo.launch()
