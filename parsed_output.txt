@@ -1,0 +1,239 @@
+id	text
+P25D_ChemSen	In Sensation & Perception, the chemical senses are made up of two major factions.
+P25D_ChemSen	The chemical senses are gustatory (taste).
+P25D_ChemSen	The chemical senses are olfactory (smell).
+P25D_ChemSen	Both of these senses function by recognizing chemical molecules.
+P25D_ChemSen	Sight does not function by recognizing chemical molecules.
+P25D_ChemSen	Touch does not function by recognizing chemical molecules.
+P25D_ChemSen	Gustatory sensation tells us about safety of food.
+P25D_ChemSen	Gustatory sensation tells us about quality of food.
+P25D_ChemSen	Olfactory sensation provides us with info about our environment.
+P25D_ChemSen	Olfactory sensation influences who we find attractive.
+P25D_ChemSen	Olfactory sensation influences what we eat.
+P25D_ChemSen	Olfactory sensation influences who we associate with.
+P25D_ChemSen	Our papillae (taste buds) have taste receptor cells.
+P25D_ChemSen	Taste receptor cells pick up on tastants (chemical substances in food or drinks).
+P25D_ChemSen	This sensation is then transferred to our thalamus.
+P25D_ChemSen	This sensation is then transferred to our primary gustatory cortex.
+P25D_ChemSen	These signals then go on to influence our decision making.
+P25D_ChemSen	These signals then go on to influence our preferences based on the sensory input (food).
+P25D_ChemSen	After smelling something, our olfactory bulb processes these scents.
+P25D_ChemSen	After smelling something, our olfactory cortex processes these scents.
+P25D_ChemSen	Our olfactory bulb and olfactory cortex are closely connected to other brain areas involved with sensory processing.
+P18D_GeoTime	Geologic time is using rocks to describe earth's history.
+P18D_GeoTime	It uses fossils to describe earth's history.
+P18D_GeoTime	It uses rock textures to describe earth's history.
+P18D_GeoTime	It uses rock characteristics to describe earth's history.
+P18D_GeoTime	It uses magnetic properties to describe earth's history.
+P18D_GeoTime	It uses stratigraphy (layers) to describe earth's history.
+P18D_GeoTime	Stratigraphy includes layers.
+P18D_GeoTime	Methods include the Law of Superposition.
+P18D_GeoTime	Older layers are below newer layers unless there's a good reason why not.
+P18D_GeoTime	Methods include the principle of original horizontality.
+P18D_GeoTime	Because of gravity, layers will usually be horizontal.
+P18D_GeoTime	There are exceptions to layers being horizontal.
+P18D_GeoTime	Methods include the principle of lateral continuity.
+P18D_GeoTime	Layers will keep going in all directions until they thin out.
+P18D_GeoTime	Layers will keep going in all directions until they get cut off by another layer.
+P18D_GeoTime	Layers will keep going in all directions until they get cut off by formation geometry.
+P18D_GeoTime	Layers will keep going in all directions until they get cut off by environment geometry.
+P18D_GeoTime	Methods include the cross-cutting relationships principle.
+P18D_GeoTime	If a rock cuts across layers, it will be newer than the layers it passes through.
+P18D_GeoTime	If magma rises to the surface, it will be newer than the layers it passes through.
+P18D_GeoTime	The shot of a gun must be younger than the material the bullet passes through.
+P18D_GeoTime	Methods include the law of included fragments.
+P18D_GeoTime	Fragments of one rock in another rock must be older.
+P18D_GeoTime	Fragments of one rock must be deposited during the other's formation.
+P18D_GeoTime	Methods include uncomformity relationships.
+P18D_GeoTime	Uncomformity relationships are geologic record gaps formed through erosion.
+P18D_GeoTime	Uncomformity relationships are geologic record gaps formed through lack of activity.
+P18D_GeoTime	Methods include the principle of faunal succession.
+P18D_GeoTime	Rock layers have certain fossils unique to that layer in comparison to layers above it.
+P18D_GeoTime	Rock layers have certain fossils unique to that layer in comparison to layers below it.
+P18D_GeoTime	The order of strata is predictable.
+P18D_GeoTime	The order of expected fossils is predictable.
+P18D_GeoTime	There are many geological divisions.
+P18D_GeoTime	There are four eons.
+P18D_GeoTime	Eons are the largest time span.
+P18D_GeoTime	There are ten eras.
+P18D_GeoTime	The oldest eon has no eras.
+P18D_GeoTime	There are 22 periods.
+P18D_GeoTime	There are 37 epochs.
+P18D_GeoTime	There are 11 subepochs.
+P18D_GeoTime	There is an informal 38th epoch.
+P18D_GeoTime	There are 96 ages.
+P18D_GeoTime	There are five informal ages.
+P18D_GeoTime	A separate, undefined timescale unit uses chrons.
+P18D_GeoTime	Any time before the Cambrian Explosion is defined as Precambrian.
+P18D_GeoTime	The Cambrian Explosion is where lots of diverse life evolved.
+P18D_GeoTime	Any time after the Cambrian Explosion is defined as Phanerozoic.
+P18D_GeoTime	Life began forming in the Archean era.
+P16B_IsoDate	Isotopic dating is also known as radiometric dating.
+P16B_IsoDate	Isotopic dating is used for determining the age of materials.
+P16B_IsoDate	Such as rocks.
+P16B_IsoDate	Such as fossils.
+P16B_IsoDate	Isotopic dating determines the age of materials by measuring isotopes.
+P16B_IsoDate	Isotopes are chemical elements.
+P16B_IsoDate	Isotopes differ in the number of protons.
+P16B_IsoDate	Isotopes differ in mass.
+P16B_IsoDate	Time elapsed for fossils can be calculated by measuring the ratio of radioactive isotopes to stable isotopes in a sample.
+P16B_IsoDate	Time elapsed for rocks can be calculated by measuring the ratio of radioactive isotopes to stable isotopes in a sample.
+P16B_IsoDate	Time elapsed for fossils can be calculated by knowing the radioactive isotope's half-life.
+P16B_IsoDate	Time elapsed for rocks can be calculated by knowing the radioactive isotope's half-life.
+P16B_IsoDate	Common dating methods include carbon-14 dating.
+P16B_IsoDate	Common dating methods include uranium-lead dating.
+P16B_IsoDate	Common dating methods include potassium-argon dating.
+P16B_IsoDate	Common dating methods include rubidium-strontium dating.
+P16B_IsoDate	Carbon-14 is used for organic materials of up to 50,000 years old.
+P16B_IsoDate	Carbon-14 dating relies on the decay of carbon-14 to nitrogen-14.
+P16B_IsoDate	Uranium-lead is used for rocks up to billions of years old.
+P16B_IsoDate	Uranium-lead dating relies on the decay of uranium isotopes to lead.
+P16B_IsoDate	Potassium-argon is used for volcanic materials.
+P16B_IsoDate	Potassium-argon dating relies on the decay of potassium-40 to argon-40.
+P16B_IsoDate	Rubidium-strontium is used for geological samples.
+P16B_IsoDate	Rubidium-strontium dating relies on the decay from rubidium-87 to strontium-87.
+P16B_IsoDate	In order to determine whether a material is recent or ancient, many factors are considered.
+P16B_IsoDate	The material type can provide clues about its age.
+P16B_IsoDate	Such as wood.
+P16B_IsoDate	Such as bone.
+P16B_IsoDate	Stratigraphy is also important.
+P16B_IsoDate	Stratigraphy means that where the sample was within the layers of sedimentary rock can give clues about its age.
+P16B_IsoDate	Deeper layers are generally older.
+P16B_IsoDate	The environmental context also matters.
+P16B_IsoDate	e.g., was it found under solidified lava.
+P16B_IsoDate	e.g., when did that lava solidify.
+P16B_IsoDate	There are many challenges to dating.
+P16B_IsoDate	Such as contamination.
+P16B_IsoDate	Samples can be contaminated with materials from different ages.
+P16B_IsoDate	Contamination can skew results.
+P16B_IsoDate	Contamination is most common in carbon dating.
+P03C_CutSen	The cutaneous senses take information from our skin and send it to the brain.
+P03C_CutSen	The cutaneous senses take information from the epidermis and send it to the brain.
+P03C_CutSen	The cutaneous senses take information from the dermis and send it to the brain.
+P03C_CutSen	There are various types of mechanoreceptors that can perceive different sensory stimuli.
+P03C_CutSen	Merkel's disks are slow adapting.
+P03C_CutSen	Ruffini's corpuscles are slow adapting.
+P03C_CutSen	Merkel's disks are great for light pressure.
+P03C_CutSen	Merkel's disks are great for the discrimination of shapes.
+P03C_CutSen	Merkel's disks are great for the discrimination of edges.
+P03C_CutSen	Merkel's disks are great for the discrimination of rough textures.
+P03C_CutSen	Ruffini's corpuscles are great for light pressure.
+P03C_CutSen	Ruffini's corpuscles are great for the discrimination of shapes.
+P03C_CutSen	Ruffini's corpuscles are great for the discrimination of edges.
+P03C_CutSen	Ruffini's corpuscles are great for the discrimination of rough textures.
+P03C_CutSen	Meissner receptors vibrate at low frequency.
+P03C_CutSen	Meissner receptors have a rapid adapting rate.
+P03C_CutSen	Meissner receptors are ideal for when textured objects are moved across the skin.
+P03C_CutSen	Pacinian corpuscles are large.
+P03C_CutSen	Pacinian corpuscles are ideal for discriminating fine surface textures.
+P03C_CutSen	Pacinian corpuscles are ideal for moving stimuli that produce high frequency vibration.
+P03C_CutSen	Cutaneous senses are traditionally thought to comprise four recognized sub-modalities.
+P03C_CutSen	The four recognized sub-modalities relay tactile information to the central nervous system.
+P03C_CutSen	The four recognized sub-modalities relay thermal information to the central nervous system.
+P03C_CutSen	The four recognized sub-modalities relay painful information to the central nervous system.
+P03C_CutSen	The four recognized sub-modalities relay pruritic (itch) information to the central nervous system.
+P03C_CutSen	There is evidence to suggest there is a fifth modality.
+P03C_CutSen	The fifth modality conveys positive affective (pleasant) properties of touch.
+P03C_CutSen	Cutaneous sensory channels can be further classified as serving predominantly discriminative functions.
+P03C_CutSen	Cutaneous sensory channels can be further classified as serving predominantly affective functions.
+P03C_CutSen	Discriminative functions provide information about the spatial localization of events on the body surface.
+P03C_CutSen	Discriminative functions provide information about the temporal localization of events on the body surface.
+P03C_CutSen	Discriminative functions provide information about the presence of an insect on the body surface.
+P03C_CutSen	Discriminative functions provide information about the temperature of a cold wind on the body surface.
+P03C_CutSen	Affective functions provide the afferent neural input driving the negative emotional experience of pain.
+P03C_CutSen	Affective functions provide the afferent neural input driving the positive emotional experience of pain.
+P03C_CutSen	Cutaneous receptors play a role in initiating reflexive responses.
+P03C_CutSen	Cutaneous receptors play a role in the flexion withdrawal reflex in response to potentially harmful stimuli.
+P03C_CutSen	Cutaneous receptors may signal information regarding joint position when the skin is stretched.
+P03C_CutSen	Cutaneous receptors may signal information regarding kinesthesia when the skin is stretched.
+P03C_CutSen	These physical receptors help us perceive the world around us.
+F101C_CutSen	The cutaneous system relates most to the sense of touch.
+F101C_CutSen	The cutaneous system relays tactile information to the central nervous system.
+F101C_CutSen	The cutaneous system relays thermal information to the central nervous system.
+F101C_CutSen	The cutaneous system relays pain information to the central nervous system.
+F101C_CutSen	The cutaneous system relays pruritic information to the central nervous system.
+F101C_CutSen	The cutaneous system starts at the skin at the dermis.
+F101C_CutSen	The dermis is below the epidermis.
+F101C_CutSen	The dermis contains four kinds of mechanoreceptors.
+F101C_CutSen	The mechanoreceptors respond to stimuli such as pressure.
+F101C_CutSen	The mechanoreceptors respond to stimuli such as stretching.
+F101C_CutSen	The mechanoreceptors respond to stimuli such as vibration.
+F101C_CutSen	There are two major pathways in the spinal cord.
+F101C_CutSen	The two major pathways are the medial lemniscal pathway.
+F101C_CutSen	The two major pathways are the spinothalamic pathway.
+F101C_CutSen	One pathway is for touch information.
+F101C_CutSen	The other pathway is for pain.
+F101C_CutSen	The pathways cross over to the opposite side of the body.
+F101C_CutSen	The pathways synapse in the thalamus.
+F101C_CutSen	The pathways go to the somatosensory cortex.
+F101C_CutSen	The somatosensory cortex is located in the parietal lobe.
+F101C_CutSen	Nociceptors help signal pain.
+F101C_CutSen	Nociceptors signal pain related to temperature.
+F101C_CutSen	Nociceptors signal pain related to pressure.
+F101C_CutSen	Nociceptors signal pain related to chemicals.
+F101C_CutSen	Nociceptors only signal when the body has reached a point of tissue damage.
+F77D_ChemSen	The chemical senses consist of taste.
+F77D_ChemSen	The chemical senses consist of smell.
+F77D_ChemSen	The stimuli is molecules we either breathe.
+F77D_ChemSen	The stimuli is molecules [in the food we eat].
+F77D_ChemSen	We have receptors to respond to these.
+F77D_ChemSen	There is evidence to suggest 6 groupings of taste.
+F77D_ChemSen	The 6 groupings of taste include sweet.
+F77D_ChemSen	The 6 groupings of taste include salty.
+F77D_ChemSen	The 6 groupings of taste include sour.
+F77D_ChemSen	The 6 groupings of taste include bitter.
+F77D_ChemSen	The 6 groupings of taste include umami.
+F77D_ChemSen	The 6 groupings of taste include fatty content.
+F77D_ChemSen	In order to taste, we have taste buds.
+F77D_ChemSen	Taste buds have a life cycle of ten-fourteen days.
+F77D_ChemSen	Taste information is transmitted to the medulla.
+F77D_ChemSen	Taste information is transmitted to the thalamus.
+F77D_ChemSen	Taste information is transmitted to the limbic system.
+F77D_ChemSen	At the top of the nose, there are olfactory receptors.
+F77D_ChemSen	Olfactory receptors serve as ways for odor molecules to interact with chemical receptors.
+F77D_ChemSen	From here, information is sent to regions of the limbic system.
+F77D_ChemSen	From here, information is sent to the primary olfactory cortex.
+F64C_IsoDate	Isotopic dating is the measurement of time using the decay of radioactive isotopes.
+F64C_IsoDate	Isotopic dating is the measurement of time using the accumulation of decay products at a known rate.
+F64C_IsoDate	Different elements which decay are used to measure how fast something decays.
+F64C_IsoDate	Different elements which decay are used to measure how slow something decays.
+F64C_IsoDate	Different elements which decay are used to identify the age of a fossil.
+F64C_IsoDate	Different elements which decay are used to identify the age of a layer of rock.
+F64C_IsoDate	The process requires an element that decays.
+F64C_IsoDate	The process requires stable elements as well to measure.
+F64C_IsoDate	Isotopic dating is most commonly used with rocks.
+F64C_IsoDate	The rate of decay among elements has been constant over geological time.
+F64C_IsoDate	The atoms when an element decays stay there.
+F64C_IsoDate	The atoms when an element decays don't escape to the surrounding rock.
+F64C_IsoDate	The atoms when an element decays don't escape to the surrounding water.
+F64C_IsoDate	The atoms when an element decays don't escape to the surrounding air.
+F64C_IsoDate	A popularly used combination of elements is the K-Ar dating technique.
+F64C_IsoDate	Isotopic dating requires a lot of math.
+F64C_IsoDate	Isotopic dating requires a technique called half-life.
+F64C_IsoDate	Half-life is the way to measure how fast an element decays.
+F64C_IsoDate	Half-life is the way to measure how slow an element decays.
+F64C_IsoDate	If we had 100g of K and then we had 50g in 24 hours, the half-life of K would be 24 hours.
+F64C_IsoDate	The way you measure half-life is by calculation of how long the period of time is before there is half of the element left from the start.
+F64C_IsoDate	If there was 100g of K and 2 hours later, there was 75g, the half-life in this case would be 4 hours.
+F64C_IsoDate	25g was gone in 2 hours.
+F64C_IsoDate	To get to 50g, which is half, you would need 2 more hours.
+F59C_GeoTime	Geologic time is the vast span of time over which Earth's geologic history has occurred.
+F59C_GeoTime	This time is divided into different hierarchical segments based on significant events in Earth's history.
+F59C_GeoTime	The divisions of geologic time from largest to smallest are eons.
+F59C_GeoTime	The divisions of geologic time from largest to smallest are eras.
+F59C_GeoTime	The divisions of geologic time from largest to smallest are periods.
+F59C_GeoTime	The divisions of geologic time from largest to smallest are epochs.
+F59C_GeoTime	The divisions of geologic time from largest to smallest are ages.
+F59C_GeoTime	This framework is known as the Geologic Time Scale.
+F59C_GeoTime	Geologic time is used to understand Earth's history.
+F59C_GeoTime	Geologic time is used to understand the processes that have shaped the planet over billions of years.
+F59C_GeoTime	Geologic time provides information on earth sciences.
+F59C_GeoTime	Geologic time provides insights into the planet's past transformations.
+F59C_GeoTime	Geologic time provides insights into the planet's present transformations.
+F59C_GeoTime	Geologic time provides insights into the planet's future transformations.
+F59C_GeoTime	Scientists use evidence from rocks to figure out when these events happened.
+F59C_GeoTime	Scientists use evidence from fossils to figure out when these events happened.
+F59C_GeoTime	Scientists use evidence from rocks to reconstruct the story of our planet.
+F59C_GeoTime	Scientists use evidence from fossils to reconstruct the story of our planet.
+F59C_GeoTime	These methods include relative dating.
+F59C_GeoTime	These methods include absolute dating.

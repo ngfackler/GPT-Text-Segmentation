@@ -8,7 +8,7 @@ from tqdm import tqdm
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-MODEL = "gpt-4o" 
+MODEL = "gpt-4o-2024-11-20"
 
 
 def segment_text(text, few_shot_prompt):
@@ -24,6 +24,8 @@ def segment_text(text, few_shot_prompt):
                 },
             ],
             temperature=0,
+            top_p = 1, 
+            seed = 42
         )
         output = response.choices[0].message.content.strip()
         lines = [line.strip() for line in output.split("\n") if line.strip()]
@@ -63,7 +65,7 @@ def run_segmentation(file, prompt):
 # Gradio Interface
 # ------------------------------
 with gr.Blocks(title="LLM Idea Segmentation") as demo:
-    gr.Markdown("## 🧠 LLM-Based Idea Segmentation Tool\nUpload participant texts and a few-shot prompt to parse them into discrete ideas.")
+    gr.Markdown("## LLM Idea Segmentation Tool\nUpload texts and prompt.")
 
     file_input = gr.File(label="Upload Summaries File (tab-delimited .txt)")
     prompt_input = gr.File(label="Upload Prompt File (.txt)")
