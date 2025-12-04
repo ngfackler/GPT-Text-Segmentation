@@ -61,9 +61,7 @@ def run_segmentation(file, prompt):
     return out_path
 
 
-# ------------------------------
 # Gradio Interface
-# ------------------------------
 with gr.Blocks(title="LLM Idea Segmentation") as demo:
     gr.Markdown("## LLM Idea Segmentation Tool\nUpload texts and prompt.")
 
